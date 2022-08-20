@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../../component/Header'
 
 const RsvpScreen = () => {
   return (
-    <div>RsvpScreen</div>
+    <div>
+      <Header/>
+    </div>
   )
 }
 

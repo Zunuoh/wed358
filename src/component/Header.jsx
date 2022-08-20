@@ -5,18 +5,18 @@ const Header = () => {
   return (
     <>
     <div style={navHeader}>JANE & ARTHUR</div>
-    <Nav className="justify-content-center" activeKey="/home">
+    <Nav className="justify-content-center" activeKey="/homescreen">
       <Nav.Item>
-        <Nav.Link href="/home" style={navLink}>HOME</Nav.Link>
+        <Nav.Link href="/" style={navLink}>HOME</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="link-1" style={navLink}>INVITATION</Nav.Link>
+        <Nav.Link href="/invitation" style={navLink}>INVITATION</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="link-2" style={navLink}>LOCATIONS</Nav.Link>
+        <Nav.Link href="/location" style={navLink}>LOCATIONS</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="link-2" style={navLink}>RSVP</Nav.Link>
+        <Nav.Link href="/rsvp" style={navLink}>RSVP</Nav.Link>
       </Nav.Item>
     </Nav>
    

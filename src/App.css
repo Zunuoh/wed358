@@ -62,9 +62,49 @@
 
 .linksContainer{
   font-size:10px;
+}
+
+.locationContainer{
+  display: flex;
+  margin-top: 20px;
+}
+
+.locationContainer{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mapContainer{
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 40px;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom:130px;  
 
 }
 
+.locationMap{
+  margin-left: 70px;
+}
+
+.map{
+  width: 130%;
+  height: 130%;
+  background-color: aliceblue;
+}
+
+.locationDetailsText{
+  margin-left:10px;
+  font-size:12px;
+  display:flex;
+  justify-content:center;
+  font-weight:100px;
+  margin-top:4px
+}
 
 
 
