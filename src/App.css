@@ -106,5 +106,14 @@
   margin-top:4px
 }
 
+.rsvpContainer{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
 
+}
+
+.rsvpPage{
+  margin-top: 30px;
+}
 
