@@ -1,19 +1,18 @@
 import React from "react";
 import Header from "../../component/Header";
 import RsvpFooter from "../../component/RsvpFooter";
-import banner from '../../assets/banner.jpg'
 
 const InvitationScreen = () => {
   return (
     <div>
       <Header />
-      <div style={{ backgroundImage:`url(${banner})`, backgroundRepeat:"no-repeat", backgroundSize:'contain', height:600,width:"100vh" }}>
-              HEYY
+      <div className="invitationImage">
+        
       </div>
       <div className="invitationContainer">
         <div>
           
-          <div style={{display:"flex", justifyContent:"center", fontSize:10, marginTop:20}}>SAVE THE DATE</div>
+          <div style={{display:"flex", justifyContent:"center", fontSize:10, marginTop:60}}>SAVE THE DATE</div>
           <h3 style={{display:"flex", justifyContent:"center"}}>Celebrate love with us</h3  >
           <div style={{display:"flex", textAlign:"center", maxWidth:"70ch", fontSize:15, fontWeight:100}}>
                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua ut enim minim veniam, quis nostrud.
@@ -34,7 +33,7 @@ const InvitationScreen = () => {
         </div>
       </div>
 
-      <div style={{marginTop:15}}>
+      <div >
        <RsvpFooter />
       </div>
      

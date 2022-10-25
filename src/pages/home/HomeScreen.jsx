@@ -2,13 +2,19 @@ import React from 'react'
 import Header from '../../component/Header'
 import RsvpFooter from '../../component/RsvpFooter'
 import AlternatedTimeline from './AlternatedTimeline'
+import Carousel from './Carousel'
 
 const HomeScreen = () => {
   return (
     <div>
       <Header/>
+      <div>
+                <Carousel/>
+              </div>
         <div className='homeContainer'>
+          
           <div>
+             
               <div style={header}>
                   BEGINNING OF TRUE LOVE
               </div>
@@ -20,7 +26,7 @@ const HomeScreen = () => {
               </div>
 
               
-              <div >
+              <div style={{marginTop:40}}>
                 <AlternatedTimeline/>
               </div>
               

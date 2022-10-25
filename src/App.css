@@ -131,3 +131,16 @@
   flex-direction: row;
 }
 
+.invitationImage{
+  background-image: url("https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  background-position: center;
+}
+
+.caurosel{
+  height: 90vh;
+  width: 100%;
+
+}
