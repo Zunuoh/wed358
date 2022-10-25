@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../../component/Header'
-import {Button, Form} from 'react-bootstrap'
+import {Form} from 'react-bootstrap'
 import ButtonComponent from '../../component/ButtonComponent'
 
 const RsvpScreen = () => {
@@ -17,7 +17,7 @@ const RsvpScreen = () => {
               Will you attend to our special day?
           </div>
 
-          <div style={{fontSize:12, textAlign:"center"}}>
+          <div style={{fontSize:12, textAlign:"center", maxWidth:"90%"}}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua ut enim minim veniam, quis nostrud.
           </div>
 
@@ -31,12 +31,12 @@ const RsvpScreen = () => {
                 <Form.Control type="password" placeholder="Your email" style={formGroup}/>
               </Form.Group>
 
-              <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Check me out" style={formGroup}/>
+              <Form.Group className="mb-3" controlId="formBasicCheckbox" style={checkBox}>
+                <Form.Check type="checkbox" label="I'll be there" />
               </Form.Group>
 
-              <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Check me out" style={formGroup}/>
+              <Form.Group className="mb-3" controlId="formBasicCheckbox" style={checkBox}>
+                <Form.Check type="checkbox" label="Sorry, I can't come" />
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -48,7 +48,7 @@ const RsvpScreen = () => {
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formBasicPassword">
-                <Form.Control type="password" placeholder="Message" style={formGroup}/>
+                <Form.Control type="password" placeholder="Message" style={messageBox}/>
               </Form.Group>
 
              <div style={buttonContainer}>
@@ -65,9 +65,11 @@ const RsvpScreen = () => {
   )
 }
 
-const formGroup = {borderRadius:0, fontSize:10}
+const formGroup = {borderRadius:0, fontSize:10, height:40}
+const checkBox = {fontSize:10, marginTop:10}
+const messageBox = {borderRadius:0, fontSize:10, height:70}
 const buttonContainer = {display:"flex", justifyContent:"center"}
-const button = {backgroundColor:"black", color:"white"}
+// const button = {backgroundColor:"black", color:"white"}
 
 
 export default RsvpScreen
