@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 const Header = () => {
   return (
     <>
-    <div style={navHeader}>JANE & ARTHUR</div>
+    <div style={navHeader} className='navbar'>JANE & ARTHUR</div>
     <Nav className="justify-content-center" activeKey="/homescreen">
       <Nav.Item>
         <Nav.Link href="/" style={navLink}>HOME</Nav.Link>
@@ -20,8 +20,29 @@ const Header = () => {
       </Nav.Item>
     </Nav>
    
+
+      
+
   </>
   )
+
+//   {
+
+//     window.onscroll = function () {myFunction()};
+
+//     var navbar = document.getElementById("navbar");
+//     var sticky = navbar.offsetTop;
+
+//     function myFunction(){
+//       if (window.pageYOffset >= sticky){
+//         navbar.classList.add("sticky")
+//       } else {
+//         navbar.classList.remove("sticky");
+//       }
+  
+// }
+
+//  }
 }
 
 const navHeader = {display:"flex", justifyContent:"center", marginTop:30, fontFamily: 'Dancing Script cursive'}

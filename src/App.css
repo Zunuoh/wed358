@@ -1,6 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Montserrat&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@100;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@100;400&display=swap'); */
 
 .button{
 
@@ -143,4 +143,19 @@
   height: 90vh;
   width: 100%;
 
+}
+
+.rsvpImage{
+  background-image: url("https://images.pexels.com/photos/1146345/pexels-photo-1146345.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  background-position: center;
+}
+
+.rsvpContainerText{
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  -ms-transform: rotate(-10deg); /* IE 9 */
+  transform: rotate(-10deg);
 }

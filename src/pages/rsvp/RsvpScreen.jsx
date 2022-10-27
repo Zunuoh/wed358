@@ -7,7 +7,11 @@ const RsvpScreen = () => {
   return (
     <div>
       <Header/>
-
+      <div className="rsvpImage">
+        {/* <div style={{marginLeft:"40%"}} className='rsvpContainerText'>
+        CELEBRATE WITH US
+        </div> */}
+      </div>
       <div className='rsvpContainer'>
         <div className='rsvpPage'>
           <div style={{textAlign:"center", fontSize:10}}>
@@ -17,8 +21,10 @@ const RsvpScreen = () => {
               Will you attend to our special day?
           </div>
 
-          <div style={{fontSize:12, textAlign:"center", maxWidth:"90%"}}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua ut enim minim veniam, quis nostrud.
+          <div style={{fontSize:12, width:"100%",justifyContent:"center", display:"flex"}}>
+            <div style={{width: "90%",textAlign:"center"}}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua ut enim minim veniam, quis nostrud.
+            </div>
           </div>
 
           <div style={{justifyContent:"center",marginTop:20}}>
