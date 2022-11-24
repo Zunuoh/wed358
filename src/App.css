@@ -81,7 +81,7 @@
 .mapContainer{
   padding-left: 15%;
   padding-right: 15%;
-  margin-top: 40px;
+  margin-top: 60px;
   display: flex;
   font-family: 'Montserrat', sans-serif;
   padding-bottom:130px;  
@@ -89,7 +89,7 @@
 }
 
 .locationMap{
-  margin-left: 70px;
+  margin-left: 100px;
 }
 
 .map{
