@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../component/Header'
 import {Form} from 'react-bootstrap'
 import ButtonComponent from '../../component/ButtonComponent'
+import RsvpFooter from '../../component/RsvpFooter'
 
 const RsvpScreen = () => {
   return (
@@ -63,6 +64,10 @@ const RsvpScreen = () => {
           </Form>
           </div>
         </div>
+        
+      </div>
+      <div style={{marginTop:18}}>
+       <RsvpFooter />
       </div>
 
      

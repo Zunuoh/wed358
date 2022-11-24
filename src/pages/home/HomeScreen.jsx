@@ -21,9 +21,12 @@ const HomeScreen = () => {
               <div style={subHeader}>
                   A short timeline of our story
               </div>
+              <div style={{display:"flex", justifyContent:"center"}}>
               <div style={body}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua ut enim minim veniam, quis nostrud.
               </div>
+              </div>
+             
 
               
               <div style={{marginTop:40}}>

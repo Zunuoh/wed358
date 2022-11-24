@@ -50,7 +50,7 @@ const LocationScreen = () => {
       </div>
       
 
-      <div style={{marginTop:15}}>
+      <div style={{marginTop:"7%"}}>
        <RsvpFooter />
       </div>
      

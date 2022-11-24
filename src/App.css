@@ -67,6 +67,7 @@
 .locationContainer{
   display: flex;
   margin-top: 20px;
+  overflow-y: hidden;
 }
 
 .locationContainer{
