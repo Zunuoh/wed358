@@ -1,10 +1,10 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import HomeScreen from './pages/home/HomeScreen';
-import LocationScreen from './pages/locations/LocationScreen'; 
-import InvitationScreen from './pages/invitations/InvitationScreen';
-import RsvpScreen from './pages/rsvp/RsvpScreen';
+import HomeScreen from './pages/home';
+import LocationScreen from './pages/locations'; 
+import InvitationScreen from './pages/invitations';
+import RsvpScreen from './pages/rsvp';
 
 function App() {
   return (
