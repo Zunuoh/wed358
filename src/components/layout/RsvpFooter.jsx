@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonComponent from "../ButtonComponent"
+import ButtonComponent from "../elements/ButtonComponent"
 import Footer from "../layout/Footer";
 
 const RsvpFooter = () => {
